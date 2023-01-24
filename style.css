@@ -1,0 +1,55 @@
+body {
+    
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color:#9595c2; ;
+    
+  }
+  a {
+    color: #242424;
+    text-decoration: none;
+  }
+P{
+    color:#A5B4FC;
+    font-size: 1.1eM;
+    margin:auto;
+    
+       }
+
+h1 {
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+       text-decoration: underline;
+       
+}
+       
+h2 {
+    color: #6e65a0;
+  }
+  
+.entete {
+  background-color: white;
+}
+.peid_de_page {
+  background-color: white;
+
+}
+li {
+    font-size: 1.1em;
+    color: #04020e;
+  }
+  a:hover{
+    text-decoration:underline ;
+    }
+    .cta {
+      background: linear-gradient(#8e86b5, #acaeed);
+      color: white;
+      border-radius: 50px;
+    }
+    header,footer
+    { padding:20px 50px;
+
+    }
+    
+  
