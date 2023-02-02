@@ -66,7 +66,7 @@ padding: 80px;
 }
 .a-propos-main {
 width: 50%;
-margin: auto;
+margin: 50%;
 }
 footer,
 nav {
@@ -101,26 +101,49 @@ width: 50%;
 align-items: center;
 margin: auto;
 }
+.portfolio-section-photos {
+  background-color: white;
+}
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
 .grid-portraits{
     display:grid;
-    grid-template-rows:auto;
-    grid-template-columns: auto;
+    grid-template-rows:1fr 1fr 1fr ;
+    grid-template-columns:300px  300px 300px ;
     gap: 15px;
 }
 .grid-paysages{
     display:grid;
-    grid-template-rows: 100px 300px 300px;
-    grid-template-columns:auto ;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-rows: 300px 300px;
     gap: 15px;
 }  
 .grid-paysages img,
-.grid-portraits img{
-  width:50%;
-  height: 50%;
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-.photo-hover{
+.lien-conteneur-photo {
   position: relative;
-  top: 100px;
-  left: 50px;
+}
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover {
+  display: flex;
 }
